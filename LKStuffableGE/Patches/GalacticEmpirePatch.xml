@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!--Imperial Army,StormTrooper Armor-->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="StormtrooperArmorCuirassBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="StormtrooperArmorPauldronBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="StormtrooperArmorHelmetBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	 <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="StormtrooperArmorPauldronBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+   <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="StormtrooperArmorHelmetBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="StormtrooperArmorCuirassBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+	<!--DeathTrooper Armor-->
+  <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="DeathTrooperArmorCuirassBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="DeathTrooperArmorHelmetBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="DeathTrooperArmorPauldronBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="DeathTrooperArmorCuirassBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="DeathTrooperArmorHelmetBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="DeathTrooperArmorPauldronBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+	<!--Base patches may effect other mods in outer rim as well -->
+	<!--chest armor-->
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_LightArmorFabricatedBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_LightArmorFabricatedBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_MediumArmorFabricatedBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_MediumArmorFabricatedBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_HeavyArmorFabricatedBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_HeavyArmorFabricatedBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+	<!--helmets-->
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_LightHelmetFabricatedBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_LightHelmetFabricatedBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_MediumHelmetFabricatedBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_MediumHelmetFabricatedBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_HeavyHelmetFabricatedBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_HeavyHelmetFabricatedBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+	<!--Pauldrons-->
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_LightPauldronsFabricatedBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_LightPauldronsFabricatedBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_MediumPauldronsFabricatedBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_MediumPauldronsFabricatedBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_HeavyPauldronsFabricatedBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="OuterRim_HeavyPauldronsFabricatedBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+</Patch>
