@@ -1,2 +1,2 @@
 # LK-Stuffable-Outer-Rim-Empire
-Patches that make StormTrooper Armor in Outer Rim : Galactic Empire stuffable.
+Patches that make light,medium and heavy armors in Outer Rim : Galactic Empire stuffable.
